@@ -15,6 +15,7 @@ Then, you're ready to go, simply execute this on your terminal:
 ```sh
 user@computer:~$ git clone git@github.com:dreamingechoes/mini-pixel-art-editor.git
 user@computer:~$ cd mini-pixel-art-editor
+user@computer:/mini-pixel-art-editor$ bundle install
 user@computer:/mini-pixel-art-editor$ middleman serve
 ```
 
