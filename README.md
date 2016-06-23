@@ -22,6 +22,7 @@ user@computer:/mini-pixel-art-editor$ middleman serve
 ## TO-DO
 
 - Finish the jQuery library that handles all the behaviour of the editor.
+- Create a responsive version (now is only ready for desktop).
 
 ## Contributing
 
