@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import "normalize";
+@import "minecraftia";
+@import "main";
+
+body {
+  text-align: center;
+  font-size: 1em;
+}
+
+.logo img {
+  height: 18.75em;
+  margin-top: 6em;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Minecraftia';
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0;
+}
+
+header div {
+  &#title {
+    margin-bottom: 1em;
+  }
+  &#tools {
+    margin-top: 0.8em;
+    div#colors {
+      border: 2px solid gray;
+    }
+  }
+  &#options {
+    border: 2px solid gray;
+  }
+  &#tools div#colors {
+    width: 75%;
+  }
+  &#options {
+    height: 36px;
+    overflow: hidden;
+    margin-bottom: 1em;
+    background: #fff;
+    ul {
+      float: left;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      li {
+        float: left;
+        padding: 0.4em 0.8em;
+        border-right: 2px solid gray;
+      }
+    }
+  }
+  &#tools div#colors a.color {
+    cursor: default;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+  }
+}
+
+canvas#editor {
+  background: url('../images/bg.png');
+  cursor: crosshair;
+  border: 2px solid gray;
+}
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+}
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: scale(1);
+  }
+}
