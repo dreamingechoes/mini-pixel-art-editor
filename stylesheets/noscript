@@ -1,0 +1,11 @@
+/* line 1, noscript.scss */
+body:after {
+  display: none; }
+
+/* line 5, noscript.scss */
+#main {
+  -moz-transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+  opacity: 1 !important; }

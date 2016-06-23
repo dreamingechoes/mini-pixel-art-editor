@@ -1,0 +1,25 @@
+/* line 1, ie9.scss */
+body {
+  background-image: url("../../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed; }
+  /* line 7, ie9.scss */
+  body:after {
+    display: none; }
+
+/* line 13, ie9.scss */
+ul.icons li a:before {
+  color: #c8cccf; }
+/* line 16, ie9.scss */
+ul.icons li a:hover:before {
+  color: #ff7496; }
+
+/* line 21, ie9.scss */
+#wrapper {
+  text-align: center; }
+
+/* line 25, ie9.scss */
+#main {
+  display: inline-block; }
